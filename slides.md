@@ -1,6 +1,6 @@
 <!-- .slide: data-background="/img/title.gif" -->
 
-[`j.mp/c@ucsd`](http://j.mp/c@ucsd)
+[`j.mp/cs-ucsd`](http://bit.ly/cs-ucsd)
 ---
 <!-- .slide: data-background="/img/bludenz.jpg" -->
 ---
