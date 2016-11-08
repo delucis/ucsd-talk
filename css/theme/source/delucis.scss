@@ -1,0 +1,102 @@
+/**
+ * A simple dark theme for reveal.js presentations
+ * Dark background, light text, with light blue highlights
+ *
+ * This theme is Copyright (C) 2015 Chris Swithinbank — it is MIT licensed.
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+// Override theme settings (see ../template/settings.scss)
+// Background of the presentation
+$backgroundColor: rgb(51, 73, 76);
+
+// Primary/body text
+$mainFont: 'Alegreya', 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+$mainFontSize: 34px;
+$mainColor: rgba(250,252,249,0.9);
+$codeFont: Input, monospace;
+
+// Vertical spacing between blocks of text
+$blockMargin: 0;
+
+// Headings
+$headingFont: 'Infini', 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+$headingColor: $mainColor;
+$headingTextShadow: none;
+$headingTextTransform: none;
+$headingFontWeight: 300;
+$heading1FontWeight: 300;
+$headingLineHeight: 1.15;
+$heading1LineHeight: 1;
+
+$heading1Size: 2.827em;
+$heading2Size: 2em;
+$heading3Size: 1.414em;
+$heading4Size: 1em;
+
+// Links and actions
+$linkColor: rgb(180,227,234);
+$linkColorHover: lighten( $linkColor, 20% );
+
+// Text selection
+$selectionBackgroundColor: rgb(255, 65, 54);
+$selectionColor: $mainColor;
+$highlightColor: rgb(237,182,182);
+
+.reveal a {
+  line-height: 1.3em;
+}
+
+.reveal {
+  -moz-font-feature-settings:"liga" 1, "dlig" 1, "clig" 1, "calt" 1;
+  -moz-font-feature-settings:"liga=1, dlig=1, clig=1, calt=1";
+  -ms-font-feature-settings:"liga" 1, "dlig" 1, "clig" 1, "calt" 1;
+  -o-font-feature-settings:"liga" 1, "dlig" 1, "clig" 1, "calt" 1;
+  -webkit-font-feature-settings:"liga" 1, "dlig" 1, "clig" 1, "calt" 1;
+}
+
+.image-right {
+  div,
+  figure {
+    width: 50%;
+    float:left;
+    box-sizing: border-box;
+  }
+  div {
+    padding-right: 5%;
+  }
+}
+
+.reveal .no-bullets {
+  list-style-type: none;
+}
+.reveal ol.roman {
+  list-style-type: upper-roman;
+}
+
+.reveal .highlight {
+  color: $highlightColor;
+}
+
+.reveal .invert {
+  background: $mainColor;
+  color: $backgroundColor;
+  padding: 0 0.3em;
+  margin: 0.6em -0.3em;
+}
+
+.reveal .overlay-title {
+  background: rgba($backgroundColor,0.9);
+  padding: 1em 0.5em;
+  margin: 0 2em;
+}
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
