@@ -44,6 +44,23 @@
   padding: 1em 0.5em;
   margin: 0 2em; }
 
+.reveal .text-bottom {
+  padding-top: 65%; }
+
+.donate-link {
+  font-family: "Infini", "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
+  position: absolute;
+  z-index: 999999;
+  bottom: 3px;
+  left: 0;
+  padding: 1em;
+  background: #33494c; }
+  .donate-link a {
+    color: #edb6b6;
+    text-decoration: none; }
+    .donate-link a:hover {
+      color: #ff4136; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
