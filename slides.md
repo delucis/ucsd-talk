@@ -7,6 +7,8 @@
 
 _union–seam_, JACK Quartet, 6 February 2016
 ---
+<!-- .slide: data-background="#000000" -->
+---
 <!-- .slide: data-background="/img/tomorrow-sketch.jpg" -->
 <p class="overlay-title">_Tomorrow I will build a house here, if I can hold still_<br>Bettina Junge & Mathis Mayr (ensemble mosaik)<br>4 October 2014</p>
 
