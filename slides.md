@@ -15,6 +15,11 @@ Source: https://www.facebook.com/chris.swithinbank/posts/10101423363495555
 
 Stuart Hall, ‘Museums of Modern Art and the End of History’ (2001)
 ---
+> Revolution is not a one-time event. It is becoming always vigilant for the smallest opportunity to make a genuine change in established, outgrown responses; for instance, it is learning to address each other’s difference with respect.
+
+Audre Lorde, _Sister Outsider_, 140–41
+
+---
 <!-- .slide: data-background="#000000" -->
 
 Note:
