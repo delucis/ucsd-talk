@@ -96,6 +96,27 @@ $highlightColor: rgb(237,182,182);
   margin: 0 2em;
 }
 
+.reveal .text-bottom {
+  padding-top: 65%;
+}
+
+.donate-link{
+  font-family: $headingFont;
+  position:absolute;
+  z-index:999999;
+  bottom:3px;
+  left:0;
+  padding:1em;
+  background: $backgroundColor;
+  a {
+    color: $highlightColor;
+    text-decoration: none;
+    &:hover {
+      color: $selectionBackgroundColor;
+    }
+  }
+}
+
 
 // Theme template ------------------------------
 @import "../template/theme";
