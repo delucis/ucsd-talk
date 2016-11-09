@@ -13,4 +13,4 @@ npm install
 npm start
 ```
 
-Slide notes are available by pressing <kbd>S</kbd>.
+Slide notes are available by pressing <kbd>s</kbd>.
