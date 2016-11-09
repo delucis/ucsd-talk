@@ -38,8 +38,6 @@ Moira Gatens, _Imaginary Bodies: Ethics, Power, and Corporeality_ (1996)
 Jane Bennett, _Vibrant Matter_ (2010)
 ![Vibrant Matter, p.23](img/vibrant-matter-quote.jpg)
 ---
-<!-- .slide: data-background="/img/networks.png" -->
----
 <!-- .slide: data-background="/img/altmejd.jpg" -->
 
 Note:
